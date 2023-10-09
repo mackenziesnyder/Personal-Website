@@ -200,9 +200,9 @@ function Experience() {
                             <div className="item_text">
                                 <div className="item_header">Instagram Follower Project</div>
                                 <p className="item_company">Software Project</p>
-                                <p className="skills">Skills: Python, Git</p>
+                                <p className="skills">Skills: Typescript, Git</p>
                                 <p className="describe">
-                                    Developed a Python script to analyze Instagram follower data stored in JSON files, automating the extraction of information such as 
+                                    Developed a Typescript script to analyze Instagram follower data stored in JSON files, automating the extraction of information such as 
                                     follower usernames and following usernames.This project facilitated the efficient comparison of followers vs following and displays 
                                     the differences between the extracted information
                                 </p>
