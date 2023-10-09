@@ -33,3 +33,29 @@
   color: rgb(196, 190, 190); 
 }
 
+@media (max-width: 768px) {
+
+  .navbar {
+    justify-content: center;
+    background-image: linear-gradient(to right, #523a2a, #523a2a);
+  }
+
+  .nav-list {
+    margin: 5px 0;
+    padding: 0;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+  }
+
+  .nav-item {
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  .nav-button {
+    margin: 0 10px;
+  }
+}
+

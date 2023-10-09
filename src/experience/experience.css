@@ -102,6 +102,84 @@
     margin-right: 80px;
 }
 
+@media (max-width: 1050px) {
+    .item_text {
+        margin-right: 30px;
+    }
+
+    .picture {
+        max-width: 300px; 
+        width: 30%;
+        margin: 0;
+        align-self: flex-start;
+        height: auto;
+        border: solid;
+        border-color: #cac8c8;
+        margin-right: 30px;
+    }
+
+    .pictureBlank {
+        max-width: 300px; 
+        width: 30%;
+        margin: 0;
+        align-self: flex-start;
+        height: auto;
+        border: none;
+        margin-right: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+        
+    .ex_title {
+        font-size: 48px;
+    }
+    .ex_navbar {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+        }
+        
+    .exli {
+        display: block;
+        margin-bottom: 0px;
+    }
+
+    .but {
+        display: block;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    
+    .item {
+        flex-direction: column; 
+    }
+    
+    .item_text {
+        margin: auto;
+        font-size: 15px;
+    }
+
+    .item_company {
+        font-size: 12px;
+    }
+
+    .skills{
+        font-size: 13px;
+    }
+
+    .describe {
+        text-align: justify;
+    }
+
+    .picture {
+        margin: auto auto 15px auto;
+        max-width: 300px;
+        width: 60%;
+    }
+}
+
 
 
 

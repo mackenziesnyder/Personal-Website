@@ -21,9 +21,27 @@
   }
 
 .text {
-    text-align:justify;
-    margin: 2% 25% 2% 25%;
-    font-size: 24px;
+    text-align: justify;
+    margin: 2% 15% 2% 15%;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     color:  #523a3a;
+}
+
+@media (max-width: 768px) {
+    .about_title {
+        font-size: 40px;
+    }
+
+    .linkedIn_Picture {
+        width: 60%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .text {
+        font-size: 15px;
+        text-align: left;
+        margin: 5% 7%;
+    }
 }

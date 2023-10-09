@@ -44,3 +44,21 @@
     margin: 2% 21% 2% 20%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
+
+@media (max-width: 768px) {
+    .resume_title {
+        font-size: 48px;
+    }
+
+    .myRes {
+        max-width: 307px;
+        width: 70%;
+        height: auto;
+        margin: 15px 2%;
+      }
+
+      .downloadButton {
+          margin-top: 15px;
+      }
+    
+}

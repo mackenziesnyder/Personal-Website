@@ -17,7 +17,7 @@ function homePage() {
               <img className="icon" src={linkedInIcon} alt="linkedIn Icon"></img>
               <div className="link">
                   <a  href="https://www.linkedin.com/in/mackenzie-snyder-a92178220/" target="_blank" rel="noopener noreferrer">
-                      Linkedin Profile
+                      Linkedin
                   </a>
               </div>
             </div>
@@ -25,7 +25,7 @@ function homePage() {
               <img className="icon" src={githubIcon} alt="Github Icon"></img>
               <div className="link">
                   <a  href="https://github.com/mackenziesnyder" target="_blank" rel="noopener noreferrer">
-                      GitHub Profile
+                      GitHub
                   </a>
               </div>
             </div>
