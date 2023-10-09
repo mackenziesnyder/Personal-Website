@@ -1,0 +1,46 @@
+.resume_title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color:  #523a3a;
+    border-bottom: .5px solid #000; 
+    border-color: #533b3b;
+    padding: 30px 0; 
+    margin: 2% 10% 2% 10%;
+}
+
+.downloadButton {
+    margin: auto;
+    width: 100px;
+    background-color: transparent; 
+    color: #523a3a; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    border: .5px solid;
+    border-color:#523a3a;
+    border-width: 0.05rem;
+    box-shadow: none;
+}
+.download {
+    background-color: transparent; 
+    color: #523a3a; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    font-weight: 500;
+    font-size: 15px;
+    border-color:#523a3a;
+    border-width: 0.05rem;
+    box-shadow: none;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.downloadButton:hover {
+    background-color: rgb(82,58,58,0.1);
+}
+
+.myRes {
+    max-width: 40%;
+    height: auto;
+    margin: 2% 21% 2% 20%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }

@@ -1,0 +1,107 @@
+.ex_title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color:  #523a3a;
+    border-bottom: .5px solid #000; 
+    border-color: #533b3b;
+    padding: 30px 0; 
+    margin: 2% 10% 2% 10%;
+}
+
+.ex_navbar {
+    list-style: none;
+  }
+
+.exli {
+    padding: 0 40px;
+}
+
+.but {
+    font-style: none;
+    border: none;
+    background-color: transparent; 
+}
+.resButton {
+    background-color: transparent; 
+    color: #523a3a; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    font-weight: 500;
+    font-size: 20px;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    padding: 5px 40px;
+}
+
+.ex_body {
+    text-align: left;
+    margin: 40px 10%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #523a3a;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.body_section {
+    padding: 7px 0px 7px 0px;
+}
+
+.item {
+    padding-bottom: 20px;
+    display: flex;
+} 
+
+.item_text {
+    margin-right: 80px;
+}
+
+.item_header {
+    color: #523a3a;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 600;
+} 
+
+.item_company {
+    margin: 3px 0px;
+    color: rgb(109, 101, 101);
+    font-style: italic;
+}
+
+.skills {
+    margin-top: 3px;
+    color: rgb(109, 101, 101);
+}
+
+.describe {
+    color: #523a3a;
+}
+
+.picture {
+    max-width: 300px; 
+    margin: auto;
+    align-self: flex-end;
+    height: auto;
+    border: solid;
+    border-color: #cac8c8;
+    margin-right: 80px;
+}
+
+.pictureBlank {
+    max-width: 300px; 
+    margin: auto;
+    align-self: flex-end;
+    height: auto;
+    border: none;
+    margin-right: 80px;
+}
+
+
+
+

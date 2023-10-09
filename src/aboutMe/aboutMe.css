@@ -1,0 +1,29 @@
+.aboutMe {
+    margin-bottom: 5%;
+}
+
+.about_title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color:  #523a3a;
+    border-bottom: .5px solid #000; 
+    border-color: #533b3b;
+    padding: 30px 0; 
+    margin: 2% 10% 2% 10%;
+}
+
+
+.linkedIn_Picture {
+    max-width: 40%;
+    height: auto;
+    margin: 2% 20% 2% 20%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+.text {
+    text-align:justify;
+    margin: 2% 25% 2% 25%;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    color:  #523a3a;
+}
