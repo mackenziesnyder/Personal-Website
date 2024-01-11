@@ -27,3 +27,5 @@ function App() {
 
 export default App;
 
+//to deploy: npm run deploy
+

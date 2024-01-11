@@ -11,6 +11,8 @@ import karmm from './content/karmm.png';
 import hotDog from './content/hotdog.png';
 import sySTEM from './content/sySTEM.png';
 import blank from './content/blank.png';
+import sirrl from './content/sirrl.png';
+import food4kids from './content/food4kids.png';
 
 function Experience() {
     return (
@@ -20,10 +22,10 @@ function Experience() {
                 <div className="ex_navbar">
                     <li className="exli">
                        <button className="but">
-                        <a className="resButton" href="#internship">Internships</a>
+                        <a className="resButton" href="#internship">Research</a>
                        </button>
                        <button className="but">
-                        <a className="resButton" href="#sdt">Student Design Teams</a>
+                        <a className="resButton" href="#sdt">Internships and Student Design Teams</a>
                        </button> 
                        <button className="but">
                         <a className="resButton" href="#projects">Projects</a>
@@ -37,8 +39,8 @@ function Experience() {
                         <div className="item">
                             <div className="item_text">
                                 <div className="item_header">Software Engineering Intern</div>
-                                <p className="item_company">Unity Health Toronto | January 2023 - April 2023 and September 2023 - Current</p>
-                                <p className="skills">Skills: Typescript, React.js, Java, Python, MS SQL, PostrgeSQL, AWS, Android Studio, Figma, Git</p> 
+                                <p className="item_company">Unity Health Toronto | January 2023 - April 2023 and September 2023 - December 2023</p>
+                                <p className="skills">Skills and Tools: Typescript, React.js, Java, Python, MS SQL, PostrgeSQL, AWS, Android Studio, Figma, Git</p> 
                                 <p className="describe">
                                     Updated and refactored code in Typescript and Javascript codebase to meet new industry standards 
                                     for an Electronic Asthma Management System. Conducted comprehensive testing, including edge cases, to validate the 
@@ -55,7 +57,7 @@ function Experience() {
                         <div className="item_text">
                             <div className="item_header">Software Quality Analysis Intern</div>
                                 <p className="item_company">Infrastructures for Information (i4i) | May 2022 - September 2022</p>
-                                <p className="skills">Skills: Quality Assurance, Test Documentation, Python, XML/XMLT</p>
+                                <p className="skills">Skills and Tools: Quality Assurance, Test Documentation, Python, XML/XMLT</p>
                                 <p className="describe">
                                     Tested i4i FDA approved pharmaceutical labeling templates, completed assigned test cases 
                                     and professionally documented errors/faults in the software. Worked in collaboration with a team to develop a conversion 
@@ -68,13 +70,25 @@ function Experience() {
                         </div>
                     </div>
 
-                    <h2 className="header" id="sdt">Student Design Teams</h2>
+                    <h2 className="header" id="sdt">Research and Student Design Teams</h2>
                     <div className="body_section">
+                    <div className="item">
+                            <div className="item_text">
+                                <div className="item_header">Undergraduate Research Assistant</div>
+                                <p className="item_company">Social and Intelligent Robotics Research Labratory | January 2023 - Present</p>
+                                <p className="skills">Skills and Tools: Kotlin, Furhat Social Robot SDK</p> 
+                                <p className="describe">
+                                  ​​Utilized Kotlin Skill API and Furhat SDK to assist in programming the Furhat robot, 
+                                  developing an engaging interactive game aimed at educating children about bullying and fostering a positive learning environment. 
+                                </p>
+                            </div>
+                             <img className="picture" src={sirrl} alt="SIRRL Logo"></img>
+                        </div>
                         <div className="item">
                             <div className="item_text">
                                 <div className="item_header">Mechanical/Electrical Team Member</div>
                                 <p className="item_company">Watolink | January 2023 - Present</p>
-                                <p className="skills">Skills: SolidWorks, CAD, Market Research, User Research</p>
+                                <p className="skills">Skills and Tools: SolidWorks, CAD, Market Research, User Research</p>
                                 <p className="describe">
                                     Participated in collaborative research and design initiatives within a multidisciplinary team,
                                     harnessing Solidworks expertise to meticulously craft 3D models of wheelchair components, facilitating
@@ -91,7 +105,7 @@ function Experience() {
                             <div className="item_text">
                                 <div className="item_header">Infrastructure Team Lead</div>
                                 <p className="item_company">Waterloop | January 2022 - August 2023</p>
-                                <p className="skills">Skills: Project Management, Leadership, SolidWorks, CAD, FEA, Field Construction</p>
+                                <p className="skills">Skills and Tools: Project Management, Leadership, SolidWorks, CAD, FEA, Field Construction</p>
                                 <p className="describe">
                                     Assisted with on-site physical construction of the Hyperloop test track, performing  quality checks on track materials,
                                     delivering the materials to the track site, and communicating with those who manage the site where the test track is built.
@@ -108,7 +122,7 @@ function Experience() {
                             <div className="item_text">
                                 <div className="item_header">Frontend Software Team Member</div>
                                 <p className="item_company">UW Med Tech Resolve | August 2022 - January 2023</p>
-                                <p className="skills">Skills: React.js, Bootstrap, Redux, Git</p>
+                                <p className="skills">Skills and Tools: React.js, Bootstrap, Redux, Git</p>
                                 <p className="describe">
                                     Worked on front-end development features of the UW Med Tech Resolve public website using React and Bootstrap to improve 
                                     the existing UI, and using Redux as a state management tool. Collaborated with team members to conceptually design an 
@@ -125,7 +139,7 @@ function Experience() {
                             <div className="item_text">
                                 <div className="item_header">Rate-IT</div>
                                 <p className="item_company">Software Project</p>
-                                <p className="skills">Skills: React.js, Next.js, MySQL, Figma, Git</p>
+                                <p className="skills">Skills and Tools: React.js, Next.js, MySQL, Figma, Git</p>
                                 <p className="describe">
                                     Designed and developed 'Rate-it,' an innovative application enabling users to organize personalized items within customizable 
                                     folders for easy rating. Leveraged React JS, Node JS, and MySQL to bring this project to life.
@@ -137,7 +151,7 @@ function Experience() {
                             <div className="item_text">
                                 <div className="item_header"> Prosthetic Hand Phone Grip</div>
                                 <p className="item_company">Interdisciplinary Project</p>
-                                <p className="skills">Skills: SolidWorks, CAD, 3D Printing, Rapid Prototyping, EMG Signal Processing, Arduino IDE, Circuit Design</p>
+                                <p className="skills">Skills and Tools: SolidWorks, CAD, 3D Printing, Rapid Prototyping, EMG Signal Processing, Arduino IDE, Circuit Design</p>
                                 <p className="describe">
                                     Designed and engineered an interdisciplinary mechanical and electrical prosthetic hand phone grip system, integrating EMG (Electromyography) 
                                     signal control technology to provide seamless and intuitive functionality, enhancing the user's quality of life and independence. Used 
@@ -150,7 +164,7 @@ function Experience() {
                             <div className="item_text">
                                 <div className="item_header">KARMM's Wheelchair Arm</div>
                                 <p className="item_company">Product Design Project</p>
-                                <p className="skills">Skills: Engineering Drawings, Product Design, Iterative Design, User Rersearch</p>
+                                <p className="skills">Skills and Tools: Engineering Drawings, Product Design, Iterative Design, User Rersearch</p>
                                 <p className="describe">
                                     Collaborated within a cross-functional team to engineer a specialized vacuum attachment for a wheelchair, 
                                     meticulously adhering to stringent design constraints. Led the development process, creating user personas, 
@@ -162,9 +176,24 @@ function Experience() {
                         </div>
                         <div className="item">
                             <div className="item_text">
+                                <div className="item_header">Meal Matchmakers</div>
+                                <p className="item_company">Fall 2023 WiE Hackathon Submission - Partnered with Food4Kids Waterloo</p>
+                                <p className="skills">Skills and Tools: Python, Figma, Product Design, Responsive Design, User Flows and Wireframing</p>
+                                <p className="describe">
+                                    Developed a strategic initiative to enhance community engagement and donor participation in the Food4Kids program. 
+                                    Devised and implemented a Python-based algorithm that optimizes the matching process between children with dietary 
+                                    restrictions and local donors, significantly reducing the travel requirements for Food4Kids delivery personnel. 
+                                    Additionally, crafted a user-friendly teacher portal prototype using Figma, empowering educators to register 
+                                    students for the program while providing valuable resources on recognizing signs of child hunger.
+                                </p>
+                            </div>
+                            <img className="picture" src={food4kids} alt="Food4Kids Teacher Portal Student Registration"></img>
+                        </div>
+                        <div className="item">
+                            <div className="item_text">
                                 <div className="item_header">SySTEM</div>
-                                <p className="item_company">Fall 2023 WiE Hackathon Submission</p>
-                                <p className="skills">Skills: Product Design, Responsive Design, User Flows and Wireframing</p>
+                                <p className="item_company">Fall 2022 WiE Hackathon Submission</p>
+                                <p className="skills">Skills and Tools: Product Design, Responsive Design, User Flows and Wireframing</p>
                                 <p className="describe">
                                     Designed and prototyped an intuitive mobile app interface in Figma that incorporates a daily question generator to engage and guide high school students towards 
                                     potential STEM career paths. The interactive design encourages exploration and self-assessment, fostering a greater understanding of diverse STEM fields and inspiring 
@@ -177,7 +206,7 @@ function Experience() {
                             <div className="item_text">
                                 <div className="item_header">Hot Dog Cart</div>
                                 <p className="item_company">Computer Aided Design Project</p>
-                                <p className="skills">Skills: Onshape, CAD, 3D Modelling, Creative Thinking</p>
+                                <p className="skills">Skills and Tools: Onshape, CAD, 3D Modelling, Creative Thinking</p>
                                 <p className="describe">Designed a hot dog cart using Onshape, encompassing 3D modeling, assembly, and detailed technical 
                                 drawings to ensure precision and visual detail.</p>
                             </div>
@@ -187,7 +216,7 @@ function Experience() {
                             <div className="item_text">
                                 <div className="item_header">Robot Voice Generator</div>
                                 <p className="item_company">Software Project</p>
-                                <p className="skills">Skills: Python, Discrete Signal Processing, Audio Signal Analysis</p>
+                                <p className="skills">Skills and Tools: Python, Discrete Signal Processing, Audio Signal Analysis</p>
                                 <p className="describe">
                                     Developed a voice signal processing algorithm in Python to transform standard audio recordings into a distinctive robotic voice with precision and clarity. 
                                     This project involved extensive signal analysis, discrete signal processing using filters, and waveform manipulation, resulting in an engaging and unique auditory 
@@ -200,7 +229,7 @@ function Experience() {
                             <div className="item_text">
                                 <div className="item_header">Instagram Follower Project</div>
                                 <p className="item_company">Software Project</p>
-                                <p className="skills">Skills: Typescript, Git</p>
+                                <p className="skills">Skills and Tools: Typescript, Git</p>
                                 <p className="describe">
                                     Developed a Typescript script to analyze Instagram follower data stored in JSON files, automating the extraction of information such as 
                                     follower usernames and following usernames.This project facilitated the efficient comparison of followers vs following and displays 
@@ -211,9 +240,9 @@ function Experience() {
                         </div>
                         <div className="item">
                             <div className="item_text">
-                                <div className="item_header">Orthello</div>
+                                <div className="item_header">Othello</div>
                                 <p className="item_company">Software Project</p>
-                                <p className="skills">Skills: C#, Object-Oriented Programming</p>
+                                <p className="skills">Skills and Tools: C#, Object-Oriented Programming</p>
                                 <p className="describe">
                                     Designed and implemented a fully functional two-player Othello game using C#, demonstrating strong algorithm proficiency by 
                                     creating method functions and incorporating key game features.
@@ -225,7 +254,7 @@ function Experience() {
                             <div className="item_text">
                                 <div className="item_header">Preventative Measures Proposal</div>
                                 <p className="item_company">Spring 2023 Univerity of Waterloo Engineering Competition Submission - Awarded 2nd Place in the Bioengineering Category</p>
-                                <p className="skills">Skills: Problem Solving, Critical Thinking</p>
+                                <p className="skills">Skills and Tools: Problem Solving, Critical Thinking</p>
                                 <p className="describe">
                                     Competed in the Spring 2022 Waterloo Engineering Competition in the Bioengineering category placing 2nd overall. Worked with a partner to produce a 7-page report and 
                                     presentation on a solution to promote the research and funding of artificial blood substitutes while under a time limit. 

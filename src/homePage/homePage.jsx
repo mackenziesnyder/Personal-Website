@@ -11,7 +11,7 @@ function homePage() {
       <div className='homePage'>
         <div className='homePageContainer'>
           <div className='title'>Mackenzie Snyder</div>
-          <p className='description'>Biomedical Engineering Student with a Passion to Technologically Advance Healthcare</p>
+          <p className='description'>Biomedical Engineering Student with a Passion in Robotics, Automation, and Technologically Advancing Healthcare</p>
           <div className='link-cont'>
             <div className='item-cont'>
               <img className="icon" src={linkedInIcon} alt="linkedIn Icon"></img>
