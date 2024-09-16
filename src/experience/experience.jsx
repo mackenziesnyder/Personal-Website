@@ -1,5 +1,6 @@
 import React from "react";
 import './experience.css';
+import xklogo from './content/xklogo.jpg';
 import unityHealthLogo from './content/unityHealthLogo.jpg';
 import i4iLogo from './content/i4iLogo.png';
 import watolinkPic from './content/watolink.png';
@@ -13,6 +14,7 @@ import sySTEM from './content/sySTEM.png';
 import blank from './content/blank.png';
 import sirrl from './content/sirrl.png';
 import food4kids from './content/food4kids.png';
+import snnPic from './content/snnPic.png';
 
 function Experience() {
     return (
@@ -22,10 +24,10 @@ function Experience() {
                 <div className="ex_navbar">
                     <li className="exli">
                        <button className="but">
-                        <a className="resButton" href="#internship">Research</a>
+                        <a className="resButton" href="#internship">Internships</a>
                        </button>
                        <button className="but">
-                        <a className="resButton" href="#sdt">Internships and Student Design Teams</a>
+                        <a className="resButton" href="#sdt">Research and Student Design Teams</a>
                        </button> 
                        <button className="but">
                         <a className="resButton" href="#projects">Projects</a>
@@ -36,6 +38,20 @@ function Experience() {
                 <div className="ex_body">
                     <h2 className="header" id="internship">Internships</h2>
                     <div className="body_section">
+                        <div className="item">
+                            <div className="item_text">
+                                <div className="item_header">IoT Implementation Intern</div>
+                                <p className="item_company">Xandar Kardian Inc. | May 2024 - August 2024</p>
+                                <p className="skills">Skills and Tools: Python, RestAPI, Selenium, Figma, Git</p> 
+                                <p className="describe">
+                                    Engineered an operation tool utilizing Python and Selenium for the automation of FDA compatible installation tracking for vital sensor devices. 
+                                    Reduced task duration from 3 hours to 2 minutes, achieving a 98.89% efficiency improvement and significantly enhancing resource allocation and error detection.
+                                    Created a Python-based GUI automation system to streamline documentation processes and email dispatch for new client product deployments. 
+                                    The solution included intuitive control interfaces, reducing a 2 hour data implementation task to under a minute. 
+                                </p>
+                            </div>
+                             <img className="picture" src={xklogo} alt="Xandar Kardian Inc."></img>
+                        </div>
                         <div className="item">
                             <div className="item_text">
                                 <div className="item_header">Software Engineering Intern</div>
@@ -76,20 +92,29 @@ function Experience() {
                             <div className="item_text">
                                 <div className="item_header">Undergraduate Research Assistant</div>
                                 <p className="item_company">Social and Intelligent Robotics Research Labratory | January 2023 - Present</p>
-                                <p className="skills">Skills and Tools: Kotlin, Furhat Social Robot SDK</p> 
+                                <p className="skills">Skills and Tools: Python, React.js, Kotlin, Furhat Social Robot SDK</p> 
                                 <p className="describe">
-                                  ​​Utilized Kotlin Skill API and Furhat SDK to assist in programming the Furhat robot, 
-                                  developing an engaging interactive game aimed at educating children about bullying and fostering a positive learning environment. 
+                                    Developed a real-time computer-vision based object detection algorithm for autonomous pick-and-place robotic applications utilizing Python and OpenCV. Enabled precise identification and localization of common grocery store objects within a dynamic environment.                              
+                                    <br></br>
+                                    <br></br>
+                                    Utilized Kotlin Skill API and Furhat SDK to develop an interactive robotic game aimed at educating children about bullying and fostering a positive learning environment with the Furhat social robot. 
+                                    Developed a web application using React.js and Kotlin, integrating functionalities for sensory applications and user-interactions while leveraging Google Cloud API.
                                 </p>
                             </div>
                              <img className="picture" src={sirrl} alt="SIRRL Logo"></img>
                         </div>
                         <div className="item">
                             <div className="item_text">
-                                <div className="item_header">Mechanical/Electrical Team Member</div>
+                                <div className="item_header">BCI Wheelchair Lead</div>
                                 <p className="item_company">Watolink | January 2023 - Present</p>
-                                <p className="skills">Skills and Tools: SolidWorks, CAD, Market Research, User Research</p>
+                                <p className="skills">Skills and Tools: Python, ML, SolidWorks, CAD, Market Research, User Research</p>
                                 <p className="describe">
+                                    Engineered an advanced system using Python to orchestrate the seamless integration of neural data collection 
+                                    with an LED control script, employing socket communication. Established a connection between data acquisition and a ML model, 
+                                    harnessing SSVEP and motor imagery techniques to decode personalized brain signals. 
+                                    This solution translated these signals into precise wheelchair movements, ensuring both efficiency and reliability in the transfer of crucial information.
+                                    <br></br>
+                                    <br />
                                     Participated in collaborative research and design initiatives within a multidisciplinary team,
                                     harnessing Solidworks expertise to meticulously craft 3D models of wheelchair components, facilitating
                                     the transformation of conventional wheelchairs into BCI-controlled mechanical systems. Conducted extensive 
@@ -132,9 +157,21 @@ function Experience() {
                             <img className="picture" src={medTechPic} alt="Med Tech Logo"></img>
                         </div>
                     </div>
-
                     <h2 className="header" id="projects">Projects</h2>
                     <div className="body_section">
+                    <div className="item">
+                            <div className="item_text">
+                                <div className="item_header">Spiking Neural Network (SNN) Model for Sign-Language Recognition</div>
+                                <p className="item_company">Software Project</p>
+                                <p className="skills">Skills and Tools: Python, PyTorch, SNNTorch</p>
+                                <p className="describe">
+                                Engineered and deployed a cutting-edge SNN using the PyTorch and SNNTorch libraries to accurately recognize American Sign Language (ASL) gestures. Leveraged the ChicagoFSWild ASL video dataset, performing intricate frame extraction, data preprocessing, and tensor transformation to optimize training and testing pipelines. 
+                                Conducted rigorous model evaluation, analyzing loss metrics and accuracy to refine performance and enhance recognition capabilities.
+                                </p>
+                            </div>
+                            <img className="picture" src={snnPic} alt="SNN diagram pic"></img>
+                        </div>
+                        
                         <div className="item">
                             <div className="item_text">
                                 <div className="item_header">Rate-IT</div>
