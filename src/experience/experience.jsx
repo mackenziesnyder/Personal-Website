@@ -20,7 +20,7 @@ function Experience() {
     return (
         <div className="ex">
             <div className="ex-cont">
-                <h1 className="ex_title">Experience</h1>
+                <div className="ex_title">Experience</div>
                 <div className="ex_navbar">
                     <li className="exli">
                        <button className="but">
