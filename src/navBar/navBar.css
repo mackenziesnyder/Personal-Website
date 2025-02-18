@@ -64,6 +64,7 @@
   background-color: #1d98c1;
   margin: auto;
   padding: 10px;
+  margin-left: 20px;
   color: white;
   border: none;
   border-radius: 10px;
@@ -75,6 +76,49 @@
 .contact-button:hover {
   background-color: #166d8f; 
   transform: scale(1.05);  
+}
+
+@media (max-width: 1022px) {
+  .nav-list {
+    padding: 10px 20px;
+  }
+
+  .nav-button {
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .contact-button {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 1022px) {
+  .logo-button{
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 682px) {
+  
+  .nav-button {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .contact-button {
+    font-size: 16px;
+    margin-left: 5px;
+  }
+
+  .logo-button{
+    font-size: 16px;
+  }
+
+  .logo-cont {
+    padding: 10px 20px;
+  }
 }
 
 
