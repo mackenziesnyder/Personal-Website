@@ -1,34 +1,28 @@
 {
   "files": {
-    "main.css": "/Personal-Website/static/css/main.55daf7c4.css",
-    "main.js": "/Personal-Website/static/js/main.cd63bbc3.js",
+    "main.css": "/Personal-Website/static/css/main.17e31cc3.css",
+    "main.js": "/Personal-Website/static/js/main.8a1ab11c.js",
     "static/js/787.5809834d.chunk.js": "/Personal-Website/static/js/787.5809834d.chunk.js",
     "static/media/linkedIn_pic.png": "/Personal-Website/static/media/linkedIn_pic.15ab072d3e320477b2b5.png",
     "static/media/pArm.png": "/Personal-Website/static/media/pArm.862484e5046754f27340.png",
     "static/media/medtech.png": "/Personal-Website/static/media/medtech.29577ab4602914166ec8.png",
+    "static/media/linkedin-pic.png": "/Personal-Website/static/media/linkedin-pic.ec0ef2408cf1d094e6e0.png",
     "static/media/watolink.png": "/Personal-Website/static/media/watolink.a0317c75abcceb8ea95c.png",
-    "static/media/resume_screenshot.png": "/Personal-Website/static/media/resume_screenshot.b5d1c5efc42a81bd0f77.png",
-    "static/media/sySTEM.png": "/Personal-Website/static/media/sySTEM.9d3968472fdd612ce240.png",
-    "static/media/head-shot.png": "/Personal-Website/static/media/head-shot.2988691439aa5eb96fb0.png",
+    "static/media/newest_resume.png": "/Personal-Website/static/media/newest_resume.8842678c9a3522ffa184.png",
     "static/media/waterloop.png": "/Personal-Website/static/media/waterloop.5f474bc1a7dff02eaddf.png",
-    "static/media/Linkedin-icon.jpg": "/Personal-Website/static/media/Linkedin-icon.81393063f9753c435101.jpg",
-    "static/media/karmm.png": "/Personal-Website/static/media/karmm.e7f2531b3b83d1fa21e8.png",
-    "static/media/github.jpg": "/Personal-Website/static/media/github.3e88ddef11b8d21d6558.jpg",
-    "static/media/hotdog.png": "/Personal-Website/static/media/hotdog.5bbf6feadc8605517020.png",
-    "static/media/food4kids.png": "/Personal-Website/static/media/food4kids.bc937b1f3dba8ae3a5dd.png",
-    "static/media/rateIT.png": "/Personal-Website/static/media/rateIT.4eeb715e9b3e682e699e.png",
-    "static/media/Resume.pdf": "/Personal-Website/static/media/Resume.9330c6cb1e00eeac35e2.pdf",
+    "static/media/neuronpic.png": "/Personal-Website/static/media/neuronpic.74a8e56ddd605619c40e.png",
     "static/media/sirrl.png": "/Personal-Website/static/media/sirrl.0cd8d96c825d3ba27069.png",
+    "static/media/robarts.png": "/Personal-Website/static/media/robarts.458e9ee0631d8134d0d2.png",
+    "static/media/robot.png": "/Personal-Website/static/media/robot.9c2f53d28ad9101cf7fd.png",
     "static/media/snnPic.png": "/Personal-Website/static/media/snnPic.10a32a5d61670a043164.png",
-    "static/media/mail-icon.jpg": "/Personal-Website/static/media/mail-icon.1bf3fac8d95948f321e5.jpg",
     "static/media/unityHealthLogo.jpg": "/Personal-Website/static/media/unityHealthLogo.9893705e3ceba95ac478.jpg",
     "index.html": "/Personal-Website/index.html",
-    "main.55daf7c4.css.map": "/Personal-Website/static/css/main.55daf7c4.css.map",
-    "main.cd63bbc3.js.map": "/Personal-Website/static/js/main.cd63bbc3.js.map",
+    "main.17e31cc3.css.map": "/Personal-Website/static/css/main.17e31cc3.css.map",
+    "main.8a1ab11c.js.map": "/Personal-Website/static/js/main.8a1ab11c.js.map",
     "787.5809834d.chunk.js.map": "/Personal-Website/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.55daf7c4.css",
-    "static/js/main.cd63bbc3.js"
+    "static/css/main.17e31cc3.css",
+    "static/js/main.8a1ab11c.js"
   ]
 }
