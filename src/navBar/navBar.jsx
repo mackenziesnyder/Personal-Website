@@ -15,7 +15,7 @@ const Navbar = () => {
           {/* <Link to="/about" className='nav-button' >About</Link> */}
           <Link to="/experience" className='nav-button' >Experience</Link>
           <Link to="/resume" className='nav-button' >Resume</Link>
-          <Link to="/resume" className='contact-button' >Contact</Link>
+          <a className='contact-button' href="mailto:mackenziesnyder222@gmail.com">Contact</a>
         </li>
       </ul>
     </nav>

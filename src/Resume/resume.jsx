@@ -1,7 +1,6 @@
 import React from "react";
-import { Link } from 'react-router-dom';
 import './resume.css';
-import myRes from './resume_screenshot.png';
+import myRes from './newest_resume.png';
 
 function Resume() {
     return (
@@ -9,9 +8,11 @@ function Resume() {
             <div className="resume-cont">
                 <div className="resume_title">Resume</div>
                 <div className="button-cont-resume">
+                <a href="Resume.pdf" download="Resume.pdf">
                     <button className="download-pdf-button">
-                        <Link to="/resumePDF" className="download">Download PDF</Link>
+                        Download PDF
                     </button>
+                </a>
                 </div>
             </div>
             <img src={myRes} alt="resSrceenshot" className="myRes"></img>

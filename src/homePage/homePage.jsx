@@ -35,7 +35,11 @@ function homePage() {
             </div>
           </div>
           <div className='button-cont'>
-              <button className='download-cv-button'>Download CV</button>
+              <a href="Resume.pdf" download="Resume.pdf">
+              <button className='download-cv-button'>
+                  Download CV
+                </button>
+              </a>
             </div>
         </div>
         <div className='image-container'>

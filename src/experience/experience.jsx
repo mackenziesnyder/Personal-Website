@@ -6,14 +6,17 @@ import i4iLogo from './content/i4iLogo.png';
 import watolinkPic from './content/watolink.png';
 import waterloopPic from './content/waterloop.png';
 import medTechPic from './content/medtech.png';
-import rateITPic from './content/rateIT.png';
+// import rateITPic from './content/rateIT.png';
 import pArmPic from './content/pArm.png';
-import karmm from './content/karmm.png';
-import hotDog from './content/hotdog.png';
-import sySTEM from './content/sySTEM.png';
-import blank from './content/blank.png';
+// import karmm from './content/karmm.png';
+// import hotDog from './content/hotdog.png';
+// import sySTEM from './content/sySTEM.png';
+// import blank from './content/blank.png';
+import robarts_logo from './content/robarts.png'
+import robot from './content/robot.png'
+import neuronPic from './content/neuronpic.png'
 import sirrl from './content/sirrl.png';
-import food4kids from './content/food4kids.png';
+// import food4kids from './content/food4kids.png';
 import snnPic from './content/snnPic.png';
 
 function Experience() {
@@ -38,16 +41,30 @@ function Experience() {
                 <div className="ex_body">
                     <h2 className="header" id="internship">Internships</h2>
                     <div className="body_section">
+                    <div className="item">
+                            <div className="item_text">
+                                <div className="item_header">Neurosurgical Software Engineering Intern</div>
+                                <p className="item_company">Robarts Research Institute | January 2025 - Present</p>
+                                <p className="skills">Skills and Tools: Python, React.js, Linux, Docker, Singularity, Snakemake, Bash, Figma, Git</p> 
+                                <p className="describe">
+                                    Implemented new image processing features in open source software involving brain landmarks (anatomical fiducials) utilizing <b>Python, Snakemake, and Docker.</b> The feature expanded on the selection of image modalities able to be used in the software, contributing to the standardization and adaptability of the tool in the neuroimaging research field.   
+                                    <br></br>
+                                    <br></br>
+                                    Developed automated neuro-imaging pipelines for the 7T MRI scans, correcting the images for clinical applications utilizing <b>Python, Snakemake, and Docker.</b>
+                                </p>
+                            </div>
+                             <img className="picture" src={robarts_logo} alt="Robarts Research Institute"></img>
+                        </div>
                         <div className="item">
                             <div className="item_text">
                                 <div className="item_header">IoT Implementation Intern</div>
                                 <p className="item_company">Xandar Kardian Inc. | May 2024 - August 2024</p>
                                 <p className="skills">Skills and Tools: Python, RestAPI, Selenium, Figma, Git</p> 
                                 <p className="describe">
-                                    Engineered an operation tool utilizing Python and Selenium for the automation of FDA compatible installation tracking for vital sensor devices. 
-                                    Reduced task duration from 3 hours to 2 minutes, achieving a 98.89% efficiency improvement and significantly enhancing resource allocation and error detection.
-                                    Created a Python-based GUI automation system to streamline documentation processes and email dispatch for new client product deployments. 
-                                    The solution included intuitive control interfaces, reducing a 2 hour data implementation task to under a minute. 
+                                    Engineered an operation tool utilizing, <b>Python and Selenium</b> for the automation of FDA compatible installation tracking for vital sensor devices. Reduced task duration from <b>3 hours to 2 minutes</b>, achieving a <b>98.89%</b> efficiency improvement and significantly enhancing resource allocation and error detection.
+                                    <br></br>
+                                    <br></br>
+                                    Created a <b>Python-based GUI</b> automation system to streamline documentation processes and email dispatch for new client product deployments. The solution included intuitive control interfaces, reducing a <b>2 hour</b> data implementation task to under a <b>minute</b>. 
                                 </p>
                             </div>
                              <img className="picture" src={xklogo} alt="Xandar Kardian Inc."></img>
@@ -58,13 +75,13 @@ function Experience() {
                                 <p className="item_company">Unity Health Toronto | January 2023 - April 2023 and September 2023 - December 2023</p>
                                 <p className="skills">Skills and Tools: Typescript, React.js, Java, Python, MS SQL, PostrgeSQL, AWS, Android Studio, Figma, Git</p> 
                                 <p className="describe">
-                                    Updated and refactored code in Typescript and Javascript codebase to meet new industry standards 
-                                    for an Electronic Asthma Management System. Conducted comprehensive testing, including edge cases, to validate the 
-                                    functionality of the updated product. Troubleshooted and debugged code written in Python in a timely manner to meet 
-                                    production deadlines for a Smoking Cessation Infographic project, which personalizes a visual representation of a 
-                                    patient's quality of life due to smoking. Created interactive wireframes in Figma for a healthcare provider portal 
-                                    to link patient responses from an asthmatic symptoms questionnaire to a proper asthma treatment plan, to increase 
-                                    accuracy in correct asthma medication prescriptions. 
+                                    Updated and refactored codebase in <b>TypeScript, JavaScript, and Node.js</b> to meet industry standards for an Electronic Asthma Management System (eAMS) while ensuring quality and performance through automated testing utilizing <b>Java, Python, and Selenium</b>.
+                                    <br></br>
+                                    <br></br>
+                                    Designed interactive UX/UI wireframes for new product features in <b>Figma</b> and translated them into a user-friendly interface using <b>React.js</b> enhancing the user experience and accessibility for healthcare providers in <b>40+ clinics</b>.
+                                    <br></br>
+                                    <br></br>
+                                    Maintained and updated an <b>MS SQL</b> database using <b>SQL</b> for the eAMS. Utilized <b>AWS infrastructure and cloud services</b> to ensure secure data storage and efficient retrieval, ensuring smooth data operations for the system. 
                                 </p>
                             </div>
                              <img className="picture" src={unityHealthLogo} alt="Unity Health Logo"></img>
@@ -75,11 +92,10 @@ function Experience() {
                                 <p className="item_company">Infrastructures for Information (i4i) | May 2022 - September 2022</p>
                                 <p className="skills">Skills and Tools: Quality Assurance, Test Documentation, Python, XML/XMLT</p>
                                 <p className="describe">
-                                    Tested i4i FDA approved pharmaceutical labeling templates, completed assigned test cases 
-                                    and professionally documented errors/faults in the software. Worked in collaboration with a team to develop a conversion 
-                                    tool that extracts data from an Excel spreadsheet and translates it to an i4i FDA approved labeling template. Processed and debugged 
-                                    code written in Python, XML, and XSLT, implementing changes to the GUI using Figma to draft the design, and developed the display
-                                    using tkinter library.
+                                Conducted rigorous testing of i4i FDA-approved pharmaceutical labeling templates. Executed assigned test cases with precision and meticulously documented software errors and faults.
+                                <br></br>
+                                <br></br>
+                                Partnered with co-op team members to develop a conversion tool that extracts data from Excel spreadsheets and translates it into i4i FDA-approved labeling templates. Processed and debugged code written in <b>Python, XML, and XSLT,</b> and implemented GUI modifications using <b>Figma</b> for design drafting and the <b>Tkinter</b> library for display development, ensuring a user-friendly interface.
                                 </p>
                             </div>
                             <img className="picture" src={i4iLogo} alt="i4i Logo"></img>
@@ -94,34 +110,42 @@ function Experience() {
                                 <p className="item_company">Social and Intelligent Robotics Research Labratory | January 2023 - Present</p>
                                 <p className="skills">Skills and Tools: Python, React.js, Kotlin, Furhat Social Robot SDK</p> 
                                 <p className="describe">
-                                    Developed a real-time computer-vision based object detection algorithm for autonomous pick-and-place robotic applications utilizing Python and OpenCV. Enabled precise identification and localization of common grocery store objects within a dynamic environment.                              
+                                    ​​Developed a real-time <b>computer-vision</b> based object detection algorithm for autonomous pick-and-place robotic applications utilizing <b>Python and OpenCV</b>. Enabled precise identification and localization of common grocery store objects within a dynamic environment.
                                     <br></br>
                                     <br></br>
-                                    Utilized Kotlin Skill API and Furhat SDK to develop an interactive robotic game aimed at educating children about bullying and fostering a positive learning environment with the Furhat social robot. 
-                                    Developed a web application using React.js and Kotlin, integrating functionalities for sensory applications and user-interactions while leveraging Google Cloud API.
+​                                    ​Utilized <b>Kotlin Skill API and Furhat SDK</b> to develop an interactive robotic game aimed at educating children about bullying and fostering a positive learning environment with the Furhat social robot. 
+                                    <br></br>
+                                    <br></br>
+                                    Developed a web application using <b>React.js and Kotlin</b>, integrating functionalities for sensory applications and user-interactions while leveraging <b>Google Cloud API</b>.
                                 </p>
                             </div>
                              <img className="picture" src={sirrl} alt="SIRRL Logo"></img>
                         </div>
                         <div className="item">
                             <div className="item_text">
-                                <div className="item_header">BCI Wheelchair Lead</div>
+                                <div className="item_header">Watolink Lead</div>
                                 <p className="item_company">Watolink | January 2023 - Present</p>
-                                <p className="skills">Skills and Tools: Python, ML, SolidWorks, CAD, Market Research, User Research</p>
+                                <p className="skills">Skills and Tools: Python, ML, Android Studio, Kotlin, SolidWorks, Market Research, User Research</p>
                                 <p className="describe">
-                                    Engineered an advanced system using Python to orchestrate the seamless integration of neural data collection 
-                                    with an LED control script, employing socket communication. Established a connection between data acquisition and a ML model, 
-                                    harnessing SSVEP and motor imagery techniques to decode personalized brain signals. 
-                                    This solution translated these signals into precise wheelchair movements, ensuring both efficiency and reliability in the transfer of crucial information.
-                                    <br></br>
-                                    <br />
-                                    Participated in collaborative research and design initiatives within a multidisciplinary team,
-                                    harnessing Solidworks expertise to meticulously craft 3D models of wheelchair components, facilitating
-                                    the transformation of conventional wheelchairs into BCI-controlled mechanical systems. Conducted extensive 
-                                    research into batteries, motors, and integrated systems to seamlessly merge Brain-Computer Interface (BCI) 
-                                    technology with wheelchair infrastructure. Evaluated various power sources, motor types, and control systems 
-                                    to optimize the interface, ensuring a robust and efficient integration that enhances mobility and accessibility 
-                                    for users.
+                                <p><b>Brain-Computer Interface Controlled Drone</b></p>
+                                Utilized the DJI Mini 3 drone with the <b>DJI Android SDK</b> to develop an app with <b>Android Studio and Kotlin</b> to translate model output to drone movements.
+                                <br></br>
+                                <br></br>
+                                Built and trained a <b>machine learning model</b> ultilizing the motor imagery modality and the Unicorn Hybrid EEG BCI, to translate into controls for drone movement. 
+                                <p><b>Brain-Computer Interface Controlled Automated Wheelchair</b></p>
+                                Engineered an advanced system using <b>Python</b> to orchestrate the seamless integration of neural data collection with an LED control script, employing socket communication. 
+                                <br></br>
+                                <br></br>
+                                Established a connection between data acquisition and a <b>machine learning model</b>, harnessing SSVEP techniques to decode personalized brain signals. 
+                                This solution translated these signals into precise wheelchair movements, ensuring both efficiency and reliability in the transfer of crucial information.
+                                <br></br>
+                                <br></br>
+                                Harnessed <b>Solidworks</b> expertise to meticulously craft 3D models of wheelchair components, facilitating
+                                the transformation of conventional wheelchairs into BCI-controlled mechanical systems. Conducted extensive 
+                                research into batteries, motors, and integrated systems to seamlessly merge Brain-Computer Interface (BCI) 
+                                technology with wheelchair infrastructure. Evaluated various power sources, motor types, and control systems 
+                                to optimize the interface, ensuring a robust and efficient integration that enhances mobility and accessibility 
+                                for users.
                                 </p>
                             </div>
                             <img className="picture" src={watolinkPic} alt="Watolink SolidWorks"></img>
@@ -134,10 +158,10 @@ function Experience() {
                                 <p className="describe">
                                     Assisted with on-site physical construction of the Hyperloop test track, performing  quality checks on track materials,
                                     delivering the materials to the track site, and communicating with those who manage the site where the test track is built.
-                                    Utilized SolidWorks CAD software to meticulously conceptualize and model design ideas for an airlock system. Developed 
+                                    Utilized <b>SolidWorks CAD software</b> to meticulously conceptualize and model design ideas for an airlock system. Developed 
                                     individual components with precision, employing advanced SolidWorks mates to seamlessly assemble them. Designed and executed 
                                     the modeling of a first-iteration physical tube track for a Hyperloop system, incorporating complex geometries and specifications.
-                                    Conducted comprehensive Finite Element Analysis (FEA) to evaluate structural integrity, resulting in valuable insights that informed
+                                    Conducted comprehensive <b>Finite Element Analysis (FEA)</b> to evaluate structural integrity, resulting in valuable insights that informed
                                     subsequent design refinements and enhanced system efficiency.
                                 </p>
                             </div>
@@ -149,8 +173,8 @@ function Experience() {
                                 <p className="item_company">UW Med Tech Resolve | August 2022 - January 2023</p>
                                 <p className="skills">Skills and Tools: React.js, Bootstrap, Redux, Git</p>
                                 <p className="describe">
-                                    Worked on front-end development features of the UW Med Tech Resolve public website using React and Bootstrap to improve 
-                                    the existing UI, and using Redux as a state management tool. Collaborated with team members to conceptually design an 
+                                    Worked on front-end development features of the UW Med Tech Resolve public website using <b>React and Bootstrap</b> to improve 
+                                    the existing UI, and using <b>Redux</b> as a state management tool. Collaborated with team members to conceptually design an 
                                     internal public relations and human resource management website to improve organization and communication between sub-teams.
                                 </p>
                             </div>
@@ -159,20 +183,32 @@ function Experience() {
                     </div>
                     <h2 className="header" id="projects">Projects</h2>
                     <div className="body_section">
+                    
+                    <div className="item">
+                            <div className="item_text">
+                                <div className="item_header">Concussion Effects on Neurons Model</div>
+                                <p className="item_company">Software Project</p>
+                                <p className="skills">Skills and Tools: Matlab</p>
+                                <p className="describe">
+                                Developed a computational model of concussion impact using <b>MATLAB</b> software, focusing on acute axon damage and demyelination following mild Traumatic Brain Injury (TBI). Identified axonal cable changes and myelination damage as key factors affecting information transfer rate post-injury, particularly relevant for sports injury modeling.
+                                </p>
+                            </div>
+                            <img className="picture" src={neuronPic} alt="model output"></img>
+                        </div>
                     <div className="item">
                             <div className="item_text">
                                 <div className="item_header">Spiking Neural Network (SNN) Model for Sign-Language Recognition</div>
                                 <p className="item_company">Software Project</p>
                                 <p className="skills">Skills and Tools: Python, PyTorch, SNNTorch</p>
                                 <p className="describe">
-                                Engineered and deployed a cutting-edge SNN using the PyTorch and SNNTorch libraries to accurately recognize American Sign Language (ASL) gestures. Leveraged the ChicagoFSWild ASL video dataset, performing intricate frame extraction, data preprocessing, and tensor transformation to optimize training and testing pipelines. 
+                                Engineered and deployed a cutting-edge <b>SNN</b> using the <b>PyTorch and SNNTorch</b> libraries to accurately recognize American Sign Language (ASL) gestures. Leveraged the ChicagoFSWild ASL video dataset, performing intricate frame extraction, data preprocessing, and tensor transformation to optimize training and testing pipelines. 
                                 Conducted rigorous model evaluation, analyzing loss metrics and accuracy to refine performance and enhance recognition capabilities.
                                 </p>
                             </div>
                             <img className="picture" src={snnPic} alt="SNN diagram pic"></img>
                         </div>
                         
-                        <div className="item">
+                        {/* <div className="item">
                             <div className="item_text">
                                 <div className="item_header">Rate-IT</div>
                                 <p className="item_company">Software Project</p>
@@ -183,6 +219,19 @@ function Experience() {
                                 </p>
                             </div>
                             <img className="picture" src={rateITPic} alt="RateIT home page"></img>
+                        </div> */}
+                        <div className="item">
+                            <div className="item_text">
+                                <div className="item_header">Robot Voice Generator</div>
+                                <p className="item_company">Software Project</p>
+                                <p className="skills">Skills and Tools: Python, Discrete Signal Processing, Audio Signal Analysis</p>
+                                <p className="describe">
+                                    Developed a voice signal processing algorithm in Python to transform standard audio recordings into a distinctive robotic voice with precision and clarity. 
+                                    This project involved extensive signal analysis, discrete signal processing using filters, and waveform manipulation, resulting in an engaging and unique auditory 
+                                    experience for various applications, including voiceovers and entertainment.
+                                </p>
+                            </div>
+                            <img className="picture" src={robot} alt="robot"></img>
                         </div>
                         <div className="item">
                             <div className="item_text">
@@ -192,12 +241,12 @@ function Experience() {
                                 <p className="describe">
                                     Designed and engineered an interdisciplinary mechanical and electrical prosthetic hand phone grip system, integrating EMG (Electromyography) 
                                     signal control technology to provide seamless and intuitive functionality, enhancing the user's quality of life and independence. Used 
-                                    technologies such are Arduino IDE, Solidworks design and FEA, and servo motors.
+                                    technologies such are <b>Arduino IDE, Solidworks design and FEA, and servo motors</b>.
                                 </p>
                             </div>
                             <img className="picture" src={pArmPic} alt="Project Display"></img>
                         </div>
-                        <div className="item">
+                        {/* <div className="item">
                             <div className="item_text">
                                 <div className="item_header">KARMM's Wheelchair Arm</div>
                                 <p className="item_company">Product Design Project</p>
@@ -248,21 +297,8 @@ function Experience() {
                                 drawings to ensure precision and visual detail.</p>
                             </div>
                             <img className="picture" src={hotDog} alt="Hot Dog Cart Drawing"></img>
-                        </div>
-                        <div className="item">
-                            <div className="item_text">
-                                <div className="item_header">Robot Voice Generator</div>
-                                <p className="item_company">Software Project</p>
-                                <p className="skills">Skills and Tools: Python, Discrete Signal Processing, Audio Signal Analysis</p>
-                                <p className="describe">
-                                    Developed a voice signal processing algorithm in Python to transform standard audio recordings into a distinctive robotic voice with precision and clarity. 
-                                    This project involved extensive signal analysis, discrete signal processing using filters, and waveform manipulation, resulting in an engaging and unique auditory 
-                                    experience for various applications, including voiceovers and entertainment.
-                                </p>
-                            </div>
-                            <img className="pictureBlank" src={blank} alt="blank"></img>
-                        </div>
-                        <div className="item">
+                        </div> */}
+                        {/* <div className="item">
                             <div className="item_text">
                                 <div className="item_header">Instagram Follower Project</div>
                                 <p className="item_company">Software Project</p>
@@ -298,7 +334,7 @@ function Experience() {
                                 </p>
                             </div>
                             <img className="pictureBlank" src={blank} alt="blank"></img>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

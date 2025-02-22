@@ -40,6 +40,7 @@
 }
 
 .nav-item {
+  text-decoration: none;
   display: flex;
 }
 
@@ -74,6 +75,7 @@
 }
 
 .contact-button:hover {
+  text-decoration: none;
   background-color: #166d8f; 
   transform: scale(1.05);  
 }

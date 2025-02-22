@@ -5,7 +5,6 @@ import Layout from './layout/layout';
 import AboutMe from './aboutMe/aboutMe';
 import Experience from './experience/experience'; 
 import Resume from './Resume/resume';
-import ResumePDF from './ResumePDF/resumePDF';
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
             <Route path="/about" element={<AboutMe />} />
             <Route path="/experience" element={<Experience />} />
             <Route path="/resume" element={<Resume />} />
-            <Route path="/resumePDF" element={<ResumePDF />} />
           </Routes>
         </Layout>
       </Router>
