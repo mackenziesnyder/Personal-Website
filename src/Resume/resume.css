@@ -1,47 +1,50 @@
+.resume {
+    background-image: linear-gradient(to left, white, #d5eaf1);
+}
+
 .resume_title {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
-    color:  #523a3a;
+    font-size: 40px;
+    color: #1d98c1;
+    font-weight: bold;
     border-bottom: .5px solid #000; 
-    border-color: #533b3b;
-    padding: 30px 0; 
-    margin: 2% 10% 2% 10%;
+    border-color: black;
+    padding: 110px 0 15px 0;
+
 }
 
-.downloadButton {
-    margin: auto;
-    width: 100px;
-    background-color: transparent; 
-    color: #523a3a; 
-    cursor: pointer;
-    transition: background-color 0.3s ease; 
-    border: .5px solid;
-    border-color:#523a3a;
-    border-width: 0.05rem;
-    box-shadow: none;
+.button-cont-resume {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
 }
+
+.download-pdf-button {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #1d98c1;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Inria Serif', serif;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
 .download {
-    background-color: transparent; 
-    color: #523a3a; 
-    cursor: pointer;
-    transition: background-color 0.3s ease; 
-    font-weight: 500;
-    font-size: 15px;
-    border-color:#523a3a;
-    border-width: 0.05rem;
-    box-shadow: none;
-    font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
+    color: white;
 }
 
-.downloadButton:hover {
-    background-color: rgb(82,58,58,0.1);
+.download-pdf-button:hover {
+    background-color: #166d8f; 
+    transform: scale(1.05);  
 }
 
 .myRes {
     max-width: 40%;
     height: auto;
-    margin: 2% 21% 2% 20%;
+    margin: 20px 20% 2% 20%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
 

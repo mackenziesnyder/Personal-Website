@@ -1,15 +1,18 @@
 import React from "react";
-import { Link } from 'react-router-dom';
 import './resume.css';
-import myRes from './resume_screenshot.png';
+import myRes from './newest_resume.png';
 
 function Resume() {
     return (
         <div className="resume">
             <div className="resume-cont">
-                <h1 className="resume_title">Resume</h1>
-                <div className="downloadButton">
-                    <Link to="/resumePDF" className="download">Download PDF</Link>
+                <div className="resume_title">Resume</div>
+                <div className="button-cont-resume">
+                <a href="Resume.pdf" download="Resume.pdf">
+                    <button className="download-pdf-button">
+                        Download PDF
+                    </button>
+                </a>
                 </div>
             </div>
             <img src={myRes} alt="resSrceenshot" className="myRes"></img>

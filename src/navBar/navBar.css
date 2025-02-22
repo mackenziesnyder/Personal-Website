@@ -1,61 +1,126 @@
 .navbar {
-  background-image: linear-gradient(to right, #fff, #523a2a);
-  color: #f5f5f5;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
-  display: flex; 
-  justify-content: flex-end; 
+  position: absolute;
+  display: flex;
+  justify-content: space-between; 
+  width: 100%;
+  background-color: transparent;
+  z-index: 1000;
+}
+
+.logo-cont{
+  display: flex;
+  justify-content: flex-end;
+  padding:  10px 50px;
+  margin: 0;
+}
+
+.logo-button{
+  margin: auto;
+  font-size: 50px;
+  font-family: 'Snell Roundhand';
+  color: #1d98c1;
+  font-weight: semi-bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.logo-button:hover{
+  transform: scale(1.05); 
 }
 
 .nav-list {
-  list-style: none;
-  margin-left: 0;
   display: flex;
+  justify-content: flex-end;
+  padding:  10px 50px;
+  margin: 0;
+  list-style: none;
 }
 
 .nav-item {
-  margin-right: 60px;
+  text-decoration: none;
+  display: flex;
 }
 
 .nav-button {
-  margin-right: 20px;
-  background-color: transparent; 
-  color: #f5f5f5; 
-  cursor: pointer;
-  transition: background-color 0.3s ease; 
-  font-weight: 900;
-  font-size: 18px;
-  border: none;
-  font-family: 'Times New Roman', Times, serif;
+  padding: 20px 30px;
   text-decoration: none;
+  color: #000;
+  font-size: 30px;
+  font-family: 'Inria Serif', serif;
+  transition: transform 0.3s ease;
 }
 
 .nav-button:hover {
-  color: rgb(196, 190, 190); 
+  color: #1d98c1;
+  transform: scale(1.05);  
 }
 
-@media (max-width: 768px) {
+.contact-button {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #1d98c1;
+  margin: auto;
+  padding: 10px;
+  margin-left: 20px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Inria Serif', serif;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
 
-  .navbar {
-    justify-content: center;
-    background-image: linear-gradient(to right, #523a2a, #523a2a);
-  }
+.contact-button:hover {
+  text-decoration: none;
+  background-color: #166d8f; 
+  transform: scale(1.05);  
+}
 
+@media (max-width: 1022px) {
   .nav-list {
-    margin: 5px 0;
-    padding: 0;
-    justify-content: center;
-    width: 100%;
-    list-style: none;
-  }
-
-  .nav-item {
-    justify-content: center;
-    width: 100%;
-    margin: 0;
+    padding: 10px 20px;
   }
 
   .nav-button {
-    margin: 0 10px;
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .contact-button {
+    font-size: 20px;
+    margin-left: 10px;
   }
 }
+
+@media (max-width: 1022px) {
+  .logo-button{
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 682px) {
+  
+  .nav-button {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .contact-button {
+    font-size: 16px;
+    margin-left: 5px;
+  }
+
+  .logo-button{
+    font-size: 16px;
+  }
+
+  .logo-cont {
+    padding: 10px 20px;
+  }
+}
+
 

@@ -1,15 +1,20 @@
+.ex {
+    background-image: linear-gradient(to left, white, #d5eaf1);
+}
+
 .ex_title {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
-    color:  #523a3a;
+    font-size: 40px;
+    color: #1d98c1;
+    font-weight: bold;
     border-bottom: .5px solid #000; 
-    border-color: #533b3b;
-    padding: 30px 0; 
-    margin: 2% 10% 2% 10%;
+    border-color: black;
+    padding: 110px 0 15px 0;
 }
 
 .ex_navbar {
     list-style: none;
+    margin-top: 15px;
   }
 
 .exli {
@@ -23,7 +28,7 @@
 }
 .resButton {
     background-color: transparent; 
-    color: #523a3a; 
+    color: black; 
     cursor: pointer;
     transition: background-color 0.3s ease; 
     font-weight: 500;
@@ -43,7 +48,7 @@
 .header {
     margin-bottom: 10px;
     font-weight: bold;
-    color: #523a3a;
+    color: black;
     font-size: 30px;
     font-style: italic;
 }
@@ -62,7 +67,7 @@
 }
 
 .item_header {
-    color: #523a3a;
+    color: black;
     padding: 0;
     font-size: 20px;
     font-weight: 600;
